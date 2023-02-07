@@ -113,3 +113,7 @@ PySpark、SparkScala、Pig、Taz、MapReduce
 - 性能稳定性场景的抽象
 ### 被测环境的自动化部署
 ### 大数据组件客户端的封装
+- 客户端
+- API
+- UI
+  
