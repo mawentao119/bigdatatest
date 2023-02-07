@@ -85,7 +85,18 @@ Kfaka、pulsar、flink、flume、storm、 Bus、Tube、Hippo
 #### 系统举例
 Hive、Spark、Presto、Cylin、Qurid、ClickHouse
 #### 系统架构差异分析
+#### 测试难点
+- SQL覆盖度
+- 特定SQL的优化效果
+- 数据类型多样性
+- 大数据量结果一致性对比
+- 计算高效性
 #### 自动化测试方法
+1. 现网SQL的引入
+2. 特殊SQL的积累
+3. 查询计划的分析与数据构造
+4. 数据染色与结果抽样、统计分析
+5. 相同环境下的不同版本耗时对比
 
 ### 语言引擎系统
 #### 功能概述
@@ -93,3 +104,12 @@ Hive、Spark、Presto、Cylin、Qurid、ClickHouse
 PySpark、SparkScala、Pig、Taz、MapReduce
 #### 系统架构差异分析
 #### 自动化测试方法
+
+## 通用自动化测试框架设计
+### 被测环境抽象
+### 自动化运行系统
+- 测试场景、监控指标的自动配置
+- 多种自动化框架的封装
+- 性能稳定性场景的抽象
+### 被测环境的自动化部署
+### 大数据组件客户端的封装
